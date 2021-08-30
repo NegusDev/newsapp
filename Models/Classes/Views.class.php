@@ -1,14 +1,14 @@
 <?php
 
-class Views {
+class View {
     public function header() {
 
-        include (BASE_DIR .'/Views/Header.php');
+        include (BASE_DIR .'/Templates/Header.php');
     }
 
     public function footer() {
         
-        include (BASE_DIR .'/Views/Footer.php');
+        include (BASE_DIR .'/Templates/Footer.php');
     }
     
 }
