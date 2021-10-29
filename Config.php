@@ -14,7 +14,7 @@ include (BASE_DIR . '/Models/Classes/Likes.class.php');
 
 
 $Db = new DbController();
-$Views = new Views($Db);
+$Views = new Views();
 $Login = new Login($Db);
 $Journalist = new Journalist($Db);
 $Category = new Category($Db);
