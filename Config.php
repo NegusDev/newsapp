@@ -1,5 +1,8 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json');
+
 define ('BASE_DIR', __DIR__);
 
 // Models 
