@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
             echo "<script>alert('You have logged in as a journalist')</script>";
 
             header("Location:./posts.php");
-            exit();
+
 
 
         }else {
