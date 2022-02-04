@@ -44,7 +44,7 @@ class Posts extends Dbcontroller {
 
     // EDIT POST
     public function editPost($post_id,$category,$title,$body) {
-        $sql = "UPDATE posts SET category = '$category', title = '$title', body = '$body' WHERE post_id = '$post_id'";
+        $sql = "UPDATE posts SET category = '$category', title = '$title', body = '$body' WHERE post_id = $post_id";
         $result = $this->conn->query($sql) or die($this->conn->error);
         if ($result) {
             return true;
